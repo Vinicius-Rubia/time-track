@@ -54,6 +54,7 @@ export const HitTheSpot: React.FC = () => {
   });
 
   const onSubmit: SubmitHandler<FormSchemaType> = async (data) => {
+    console.log(data);
     dispatch(activateLoader("Inserindo batida. Aguarde"));
     setTimeout(() => {
       toast({

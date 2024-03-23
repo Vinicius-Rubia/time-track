@@ -43,6 +43,7 @@ export const Auth: React.FC = () => {
   });
 
   const onSubmit: SubmitHandler<FormSchemaType> = async (data) => {
+    console.log(data);
     dispatch(activateLoader("Autenticando. Aguarde"));
     setTimeout(() => {
       toast({
