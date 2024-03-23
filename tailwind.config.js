@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "auth": "url('./src/assets/images/background-auth.png')",
+        "auth": "url('/src/assets/images/background-auth.png')",
       },
       colors: {
         border: "hsl(var(--border))",
